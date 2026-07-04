@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     
-    <title>Blog Posts</title>
+    <title>Posts</title>
 </head>
 <body>
-    <h1>Blog Posts</h1>
+    <h1>Posts</h1>
     {% if  posts %}
     {% for post in posts %}
     <h2>{{post.title}}</h2>
@@ -13,7 +13,7 @@
     <hr>
     {% endfor %}
 {% else %}
-    <p>No post available</p>
+    <p>Not available</p>
 {% endif %}
 </body>
 </html>
